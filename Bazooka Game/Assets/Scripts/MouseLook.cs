@@ -26,8 +26,8 @@ public class MouseLook : MonoBehaviour
 
     private void LookAround()
     {
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * Xsens;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * Ysens;
+        float mouseX = Input.GetAxisRaw("Mouse X") * Xsens;
+        float mouseY = Input.GetAxisRaw("Mouse Y") * Ysens;
 
         rotY += mouseX;
         rotX -= mouseY;
