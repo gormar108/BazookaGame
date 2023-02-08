@@ -6,19 +6,23 @@ public class EpicSwordScript : MonoBehaviour
 {
     Animator animator;
     int isAttackHash;
-    public bool isSheathed;
+    int isDefendHash;
+    int isSheathedHash;
+    public bool isSheathed = false;
 
 
     void Start()
     {
         animator = GetComponent<Animator>();
         isAttackHash = Animator.StringToHash("isAttack");
+        isDefendHash = Animator.StringToHash("isDefend");
+        isSheathedHash = Animator.StringToHash("isSheathed");
+
     }
 
     
     void Update()
     {
-        bool isAttack = animator.GetBool(isAttackHash);
         Attack();
         Sheathed();
     }
@@ -27,10 +31,14 @@ public class EpicSwordScript : MonoBehaviour
     {
         if(!isSheathed)
         {
-            if(Input.GetKey(KeyCode.Mouse0))
+            if(Input.GetKey(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1))
                 animator.SetBool(isAttackHash, true);
             else
                 animator.SetBool(isAttackHash, false);
+            if(Input.GetKey(KeyCode.Mouse1)&&!Input.GetKey(KeyCode.Mouse0))
+                animator.SetBool(isDefendHash, true);
+            else
+                animator.SetBool(isDefendHash, false);
         }
     }
     void Sheathed()
@@ -41,11 +49,11 @@ public class EpicSwordScript : MonoBehaviour
         }
         if(isSheathed)
         {
-            GetComponent<MeshRenderer>().enabled = false;
+            animator.SetBool(isSheathedHash, true);
         }
         else
         {
-            GetComponent<MeshRenderer>().enabled = true;
+            animator.SetBool(isSheathedHash, false);
         }
 
     }
