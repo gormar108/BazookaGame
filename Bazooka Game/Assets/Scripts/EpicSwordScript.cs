@@ -9,6 +9,8 @@ public class EpicSwordScript : MonoBehaviour
     int isDefendHash;
     int isSheathedHash;
     public bool isSheathed = false;
+    Transform fpsCam;
+    public float range;
 
 
     void Start()
@@ -31,15 +33,25 @@ public class EpicSwordScript : MonoBehaviour
     {
         if(!isSheathed)
         {
-            if(Input.GetKey(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1))
-                animator.SetBool(isAttackHash, true);
-            else
-                animator.SetBool(isAttackHash, false);
-            if(Input.GetKey(KeyCode.Mouse1)&&!Input.GetKey(KeyCode.Mouse0))
+            Swing();
+            Defend();
+
+        }
+    }
+    void Defend()
+    {
+        if(Input.GetKey(KeyCode.Mouse1)&&!Input.GetKey(KeyCode.Mouse0))
                 animator.SetBool(isDefendHash, true);
             else
                 animator.SetBool(isDefendHash, false);
-        }
+    }
+
+    void Swing()
+    {
+        if(Input.GetKey(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1))
+                animator.SetBool(isAttackHash, true);
+            else
+                animator.SetBool(isAttackHash, false);
     }
     void Sheathed()
     {

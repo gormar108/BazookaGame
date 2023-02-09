@@ -2497,7 +2497,7 @@ GameObject:
   - component: {fileID: 6247284879587950163}
   - component: {fileID: 6247284879587950164}
   m_Layer: 7
-  m_Name: Cylinder
+  m_Name: Katana
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2536,3 +2536,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSheathed: 0
+  range: 0
