@@ -9,10 +9,12 @@ public class EpicSwordScript : MonoBehaviour
     int isDefendHash;
     int isSheathedHash;
     public bool isSheathed = false;
-    public Camera fpsCam;
+    public Camera mainCam;
 
     public float range = 50f;
     public float damage = 3f;
+
+    public bool readyAttack = true;
 
 
     void Start()
@@ -29,6 +31,7 @@ public class EpicSwordScript : MonoBehaviour
     {
         Attack();
         Sheathed();
+        Cooldown();
     }
 
     void Attack()
@@ -51,22 +54,41 @@ public class EpicSwordScript : MonoBehaviour
     void Swing()
     {
         
-        if(Input.GetKey(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1))
+        if(Input.GetKeyDown(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1)&&readyAttack==true)
         {
             animator.SetBool(isAttackHash, true);
             DoDamage();
+            readyAttack=false;
         }
         else {animator.SetBool(isAttackHash, false);}
     }
+    void Cooldown()
+    {
+        if (readyAttack==false)
+        {
+            StartCoroutine(AttackDelay());
+        }
+        IEnumerator AttackDelay()
+        {
+            yield return new WaitForSeconds(5);
+            readyAttack = true;
+        }
+    }
+
     void DoDamage()
     {
         RaycastHit hit;
-        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+        if (Physics.Raycast(mainCam.transform.position, mainCam.transform.forward, out hit, range))
         {
             Debug.Log(hit.transform.name);
             Target target = hit.transform.GetComponent<Target>();
             if(target != null)
             {
+                StartCoroutine(Delay());
+            }
+            IEnumerator Delay()
+            {
+                yield return new WaitForSeconds(0.3f);
                 target.Damaged(damage);
             }
         }

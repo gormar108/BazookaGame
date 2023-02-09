@@ -2270,7 +2270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a3bbe45207ac4d47affd9c30d555c9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 5
+  health: 10000
 --- !u!1 &2066275865
 GameObject:
   m_ObjectHideFlags: 0
@@ -2550,6 +2550,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isSheathed: 0
-  fpsCam: {fileID: 963194227}
-  range: 5
+  mainCam: {fileID: 963194227}
+  range: 4
   damage: 3
