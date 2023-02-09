@@ -349,6 +349,7 @@
 "Assets/Scripts/MouseLook.cs"
 "Assets/Scripts/MoveCamera.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/Target.cs"
 -langversion:9.0
 
 /deterministic

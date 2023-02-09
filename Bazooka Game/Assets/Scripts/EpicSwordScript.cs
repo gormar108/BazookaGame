@@ -9,8 +9,10 @@ public class EpicSwordScript : MonoBehaviour
     int isDefendHash;
     int isSheathedHash;
     public bool isSheathed = false;
-    Transform fpsCam;
-    public float range;
+    public Camera fpsCam;
+
+    public float range = 50f;
+    public float damage = 3f;
 
 
     void Start()
@@ -48,10 +50,26 @@ public class EpicSwordScript : MonoBehaviour
 
     void Swing()
     {
+        
         if(Input.GetKey(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1))
-                animator.SetBool(isAttackHash, true);
-            else
-                animator.SetBool(isAttackHash, false);
+        {
+            animator.SetBool(isAttackHash, true);
+            DoDamage();
+        }
+        else {animator.SetBool(isAttackHash, false);}
+    }
+    void DoDamage()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+        {
+            Debug.Log(hit.transform.name);
+            Target target = hit.transform.GetComponent<Target>();
+            if(target != null)
+            {
+                target.Damaged(damage);
+            }
+        }
     }
     void Sheathed()
     {
