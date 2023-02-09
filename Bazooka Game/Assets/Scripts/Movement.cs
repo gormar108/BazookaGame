@@ -104,7 +104,7 @@ public class Movement : MonoBehaviour
     void MovePlayer()
     {
         moveDirection = playerBody.forward * vertInput + playerBody.right * horizInput;
-
+//sussy
         if (grounded)
         {
             rb.AddForce(moveDirection.normalized * currentMoveSpeed * 10f, ForceMode.Force);
