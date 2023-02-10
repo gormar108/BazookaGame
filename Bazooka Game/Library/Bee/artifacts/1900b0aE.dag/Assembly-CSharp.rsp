@@ -350,9 +350,9 @@
 "Assets/Scripts/MouseLook.cs"
 "Assets/Scripts/MoveCamera.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/ShurikenScript.cs"
 "Assets/Scripts/Target.cs"
 "Assets/Scripts/ThrowingTutorial.cs"
-"Assets/ShurikenScript.cs"
 -langversion:9.0
 
 /deterministic

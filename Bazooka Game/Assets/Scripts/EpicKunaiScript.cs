@@ -23,6 +23,12 @@ public class EpicKunaiScript : MonoBehaviour
         rb.freezeRotation = true;
         rb.isKinematic = true;
         GetComponent<BoxCollider>().enabled = false;
+        StartCoroutine(Despawn());
         }
+    }
+    IEnumerator Despawn()
+    {
+        yield return new WaitForSeconds(5);
+        Destroy(gameObject);
     }
 }
