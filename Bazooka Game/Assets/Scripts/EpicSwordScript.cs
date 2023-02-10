@@ -11,10 +11,11 @@ public class EpicSwordScript : MonoBehaviour
     public bool isSheathed = false;
     public Camera mainCam;
 
+    public float attackCooldown = 3f;
     public float range = 50f;
     public float damage = 3f;
 
-    public bool readyAttack = true;
+    float lastSwing;
 
 
     void Start()
@@ -31,7 +32,7 @@ public class EpicSwordScript : MonoBehaviour
     {
         Attack();
         Sheathed();
-        Cooldown();
+        
     }
 
     void Attack()
@@ -54,29 +55,18 @@ public class EpicSwordScript : MonoBehaviour
     void Swing()
     {
         
-        if(Input.GetKeyDown(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1)&&readyAttack==true)
+        if(Input.GetKeyDown(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1))
         {
             animator.SetBool(isAttackHash, true);
             DoDamage();
-            readyAttack=false;
         }
         else {animator.SetBool(isAttackHash, false);}
-    }
-    void Cooldown()
-    {
-        if (readyAttack==false)
-        {
-            StartCoroutine(AttackDelay());
-        }
-        IEnumerator AttackDelay()
-        {
-            yield return new WaitForSeconds(5);
-            readyAttack = true;
-        }
     }
 
     void DoDamage()
     {
+        if(Time.time-lastSwing<attackCooldown){return;}
+        lastSwing = Time.time;
         RaycastHit hit;
         if (Physics.Raycast(mainCam.transform.position, mainCam.transform.forward, out hit, range))
         {
