@@ -6,6 +6,8 @@ public class ShurikenScript : MonoBehaviour
 {
     Rigidbody rb;
     bool canSpin;
+    public bool possibleSpin;
+    public float damage;
    
     void Start()
     {
@@ -27,6 +29,11 @@ public class ShurikenScript : MonoBehaviour
     {
         if(other.gameObject.tag!="Player")
         {
+        Target target = other.transform.GetComponent<Target>();
+        if(target != null)
+        {
+            target.Damaged(damage);
+        }
         canSpin = false;
         rb.freezeRotation = true;
         rb.isKinematic = true;
@@ -43,6 +50,9 @@ public class ShurikenScript : MonoBehaviour
 
     void Spin()
     {
-        transform.Rotate(0f, 5f, 0f, Space.Self);
+        if(possibleSpin==true)
+        {
+            transform.Rotate(0f, 5f, 0f, Space.Self);
+        }
     }
 }
