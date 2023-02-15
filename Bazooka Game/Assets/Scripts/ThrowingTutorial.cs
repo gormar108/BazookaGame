@@ -10,10 +10,13 @@ public class ThrowingTutorial : MonoBehaviour
     public Transform cam;
     public Transform attackPoint;
     public GameObject objectToThrow;
+    public GameObject katana;
 
     [Header("Settings")]
     public int totalThrows;
     public float throwCooldown;
+    public bool isNotEquipped = true;
+    int isNotEquippedHash;
 
     [Header("Throwing")]
     public KeyCode throwKey = KeyCode.Mouse0;
@@ -24,22 +27,25 @@ public class ThrowingTutorial : MonoBehaviour
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         readyToThrow = true;
+        isNotEquippedHash = Animator.StringToHash("isSheathed");
 
     }
 
     private void Update()
     {
-        if(Input.GetKeyDown(throwKey) && readyToThrow && totalThrows > 0)
+        Sheathed();
+        if(!isNotEquipped&&katana.GetComponent<EpicSwordScript>().isSheathed)
+        {
+            if(Input.GetKeyDown(throwKey) && readyToThrow && totalThrows > 0)
         {
             Throw();
         }
-    }
-
-    void ThrowAnimation()
-    {
+        }
         
     }
+
 
     private void Throw()
     {
@@ -73,7 +79,22 @@ public class ThrowingTutorial : MonoBehaviour
     }
 
    
+    void Sheathed()
+    {
+        if(Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            isNotEquipped = !isNotEquipped;
+        }
+        if(isNotEquipped)
+        {
+            animator.SetBool(isNotEquippedHash, true);
+        }
+        else
+        {
+            animator.SetBool(isNotEquippedHash, false);
+        }
 
+    }
     
 
     private void ResetThrow()
