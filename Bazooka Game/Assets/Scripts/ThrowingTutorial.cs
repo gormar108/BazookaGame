@@ -10,7 +10,7 @@ public class ThrowingTutorial : MonoBehaviour
     public Transform cam;
     public Transform attackPoint;
     public GameObject objectToThrow;
-    public GameObject hotbarScript;
+    public GameObject slot1Script;
 
     [Header("Settings")]
     public int totalThrows;
@@ -83,6 +83,8 @@ public class ThrowingTutorial : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Alpha2))
         {
             isNotEquipped = !isNotEquipped;
+            slot1Script.GetComponent<EpicSwordScript>().isSheathed = true;
+
         }
         if(isNotEquipped)
         {

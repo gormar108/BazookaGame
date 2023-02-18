@@ -10,7 +10,7 @@ public class EpicSwordScript : MonoBehaviour
     int isSheathedHash;
     public bool isSheathed = true;
     public Camera mainCam;
-    public GameObject hotbarScript;
+    public GameObject slot2Script;
 
     public float attackCooldown = 3f;
     public float range = 50f;
@@ -88,6 +88,7 @@ public class EpicSwordScript : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Alpha1))
         {
             isSheathed = !isSheathed;
+            slot2Script.GetComponent<ThrowingTutorial>().isNotEquipped = true;
         }
         if(isSheathed)
         {
