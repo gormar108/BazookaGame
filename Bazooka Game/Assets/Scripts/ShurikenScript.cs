@@ -8,6 +8,8 @@ public class ShurikenScript : MonoBehaviour
     bool canSpin;
     public bool possibleSpin;
     public float damage;
+    public ParticleSystem spark;
+    public ParticleSystem blood;
    
     void Start()
     {
@@ -29,16 +31,21 @@ public class ShurikenScript : MonoBehaviour
     {
         if(other.gameObject.tag!="Player")
         {
-        Target target = other.transform.GetComponent<Target>();
-        if(target != null)
-        {
-            target.Damaged(damage);
-        }
-        canSpin = false;
-        rb.freezeRotation = true;
-        rb.isKinematic = true;
-        GetComponent<BoxCollider>().enabled = false;
-        StartCoroutine(Despawn());
+            Target target = other.transform.GetComponent<Target>();
+            if(target != null)
+            {
+                target.Damaged(damage);
+                blood.Play();
+            }
+            else
+            {
+                spark.Play();
+            }
+            canSpin = false;
+            rb.freezeRotation = true;
+            rb.isKinematic = true;
+            GetComponent<BoxCollider>().enabled = false;
+            StartCoroutine(Despawn());
         }
     }
 

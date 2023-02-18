@@ -231,7 +231,7 @@ GameObject:
   - component: {fileID: 170068792}
   m_Layer: 0
   m_Name: ThrowPoint
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1619,7 +1619,7 @@ GameObject:
   - component: {fileID: 1161947591}
   m_Layer: 7
   m_Name: WeaponCamera
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3170,7 +3170,7 @@ GameObject:
   - component: {fileID: 4072817154584952210}
   m_Layer: 0
   m_Name: Kunai
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3328,7 +3328,7 @@ MonoBehaviour:
   throwCooldown: 0.2
   isNotEquipped: 1
   throwKey: 323
-  throwForce: 100
+  throwForce: 150
   throwUpwardForce: 3
 --- !u!95 &4072817154584952211
 Animator:
@@ -3365,7 +3365,7 @@ GameObject:
   - component: {fileID: 6247284879587950164}
   m_Layer: 7
   m_Name: Katana
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
