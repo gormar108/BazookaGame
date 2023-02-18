@@ -8,8 +8,9 @@ public class EpicSwordScript : MonoBehaviour
     int isAttackHash;
     int isDefendHash;
     int isSheathedHash;
-    public bool isSheathed = false;
+    public bool isSheathed = true;
     public Camera mainCam;
+    public GameObject hotbarScript;
 
     public float attackCooldown = 3f;
     public float range = 50f;
@@ -96,7 +97,7 @@ public class EpicSwordScript : MonoBehaviour
         {
             animator.SetBool(isSheathedHash, false);
         }
-
+        
     }
     
 }

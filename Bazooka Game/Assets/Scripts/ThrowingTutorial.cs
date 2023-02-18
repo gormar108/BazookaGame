@@ -10,7 +10,7 @@ public class ThrowingTutorial : MonoBehaviour
     public Transform cam;
     public Transform attackPoint;
     public GameObject objectToThrow;
-    public GameObject katana;
+    public GameObject hotbarScript;
 
     [Header("Settings")]
     public int totalThrows;
@@ -36,14 +36,13 @@ public class ThrowingTutorial : MonoBehaviour
     private void Update()
     {
         Sheathed();
-        if(!isNotEquipped&&katana.GetComponent<EpicSwordScript>().isSheathed)
+        if(!isNotEquipped)
         {
             if(Input.GetKeyDown(throwKey) && readyToThrow && totalThrows > 0)
         {
             Throw();
         }
         }
-        
     }
 
 
@@ -93,7 +92,7 @@ public class ThrowingTutorial : MonoBehaviour
         {
             animator.SetBool(isNotEquippedHash, false);
         }
-
+        
     }
     
 
