@@ -5,14 +5,18 @@ using TMPro;
 
 public class ThrowingTutorial : MonoBehaviour
 {
+    Animator animator;
     [Header("References")]
     public Transform cam;
     public Transform attackPoint;
     public GameObject objectToThrow;
+    public GameObject slot1Script;
 
     [Header("Settings")]
     public int totalThrows;
     public float throwCooldown;
+    public bool isNotEquipped = true;
+    int isNotEquippedHash;
 
     [Header("Throwing")]
     public KeyCode throwKey = KeyCode.Mouse0;
@@ -23,16 +27,24 @@ public class ThrowingTutorial : MonoBehaviour
 
     private void Start()
     {
+        animator = GetComponent<Animator>();
         readyToThrow = true;
+        isNotEquippedHash = Animator.StringToHash("isSheathed");
+
     }
 
     private void Update()
     {
-        if(Input.GetKeyDown(throwKey) && readyToThrow && totalThrows > 0)
+        Sheathed();
+        if(!isNotEquipped)
+        {
+            if(Input.GetKeyDown(throwKey) && readyToThrow && totalThrows > 0)
         {
             Throw();
         }
+        }
     }
+
 
     private void Throw()
     {
@@ -64,6 +76,27 @@ public class ThrowingTutorial : MonoBehaviour
         // implement throwCooldown
         Invoke(nameof(ResetThrow), throwCooldown);
     }
+
+   
+    void Sheathed()
+    {
+        if(Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            isNotEquipped = !isNotEquipped;
+            slot1Script.GetComponent<EpicSwordScript>().isSheathed = true;
+
+        }
+        if(isNotEquipped)
+        {
+            animator.SetBool(isNotEquippedHash, true);
+        }
+        else
+        {
+            animator.SetBool(isNotEquippedHash, false);
+        }
+        
+    }
+    
 
     private void ResetThrow()
     {
