@@ -6,6 +6,7 @@ public class EpicSwordScript : MonoBehaviour
 {
     Animator animator;
     int isAttackHash;
+    int isAttackComboHash;
     int isDefendHash;
     int isSheathedHash;
     public bool isSheathed = true;
@@ -17,12 +18,14 @@ public class EpicSwordScript : MonoBehaviour
     public float damage = 3f;
 
     float lastSwing;
+    float lastClick;
 
 
     void Start()
     {
         animator = GetComponent<Animator>();
         isAttackHash = Animator.StringToHash("isAttack");
+        isAttackComboHash = Animator.StringToHash("Combo");
         isDefendHash = Animator.StringToHash("isDefend");
         isSheathedHash = Animator.StringToHash("isSheathed");
 
@@ -55,13 +58,20 @@ public class EpicSwordScript : MonoBehaviour
 
     void Swing()
     {
-        
-        if(Input.GetKeyDown(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1))
+        if(Input.GetKey(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1))
         {
             animator.SetBool(isAttackHash, true);
             DoDamage();
+            if(Time.time-lastClick<1f)
+            {
+                animator.SetBool(isAttackComboHash, true);
+            }
+            lastClick = Time.time;
         }
-        else {animator.SetBool(isAttackHash, false);}
+        else {
+            animator.SetBool(isAttackHash, false);
+            animator.SetBool(isAttackComboHash, false);
+        }
     }
 
     void DoDamage()
@@ -74,11 +84,11 @@ public class EpicSwordScript : MonoBehaviour
             Target target = hit.transform.GetComponent<Target>();
             if(target != null)
             {
-                StartCoroutine(Delay());
+                StartCoroutine(AttackDelay());
             }
-            IEnumerator Delay()
+            IEnumerator AttackDelay()
             {
-                yield return new WaitForSeconds(0.3f);
+                yield return new WaitForSeconds(0.2f);
                 target.Damaged(damage);
             }
         }
