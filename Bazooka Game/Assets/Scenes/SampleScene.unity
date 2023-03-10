@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.077
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.01388186, g: 0.017380029, b: 0.023633106, a: 0.077}
+  m_IndirectSpecularColor: {r: 0.01388185, g: 0.01738001, b: 0.023633055, a: 0.077}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -450,6 +450,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 867141446, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 867141447, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.048
+      objectReference: {fileID: 0}
+    - target: {fileID: 867141449, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
+      propertyPath: throwCooldown
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689510014699668897, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
+      propertyPath: throwCooldown
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8534530927214940189, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -498,9 +514,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8534530927937981287, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
-      propertyPath: m_Convex
-      value: 1
+    - target: {fileID: 8744557415589775879, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744557415589775879, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.048
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}

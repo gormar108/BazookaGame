@@ -17,9 +17,11 @@ public class ThrowingTutorial : MonoBehaviour
     public float throwCooldown;
     public bool isNotEquipped = true;
     int isNotEquippedHash;
+    int isAttackingHash;
 
     [Header("Throwing")]
     public KeyCode throwKey = KeyCode.Mouse0;
+    public KeyCode equipKey = KeyCode.Alpha2;
     public float throwForce;
     public float throwUpwardForce;
 
@@ -30,6 +32,7 @@ public class ThrowingTutorial : MonoBehaviour
         animator = GetComponent<Animator>();
         readyToThrow = true;
         isNotEquippedHash = Animator.StringToHash("isSheathed");
+        isAttackingHash = Animator.StringToHash("isAttacking");
 
     }
 
@@ -39,9 +42,19 @@ public class ThrowingTutorial : MonoBehaviour
         if(!isNotEquipped)
         {
             if(Input.GetKeyDown(throwKey) && readyToThrow && totalThrows > 0)
-        {
-            Throw();
+            {
+                StartCoroutine(Delay());
+                animator.SetBool(isAttackingHash, true);
+
+            }
+            else{
+                animator.SetBool(isAttackingHash, false);
+            }
         }
+        IEnumerator Delay()
+        {
+            yield return new WaitForSeconds(0.3f);
+            Throw();
         }
     }
 
@@ -80,7 +93,7 @@ public class ThrowingTutorial : MonoBehaviour
    
     void Sheathed()
     {
-        if(Input.GetKeyDown(KeyCode.Alpha2))
+        if(Input.GetKeyDown(equipKey))
         {
             isNotEquipped = !isNotEquipped;
             slot1Script.GetComponent<EpicSwordScript>().isSheathed = true;
