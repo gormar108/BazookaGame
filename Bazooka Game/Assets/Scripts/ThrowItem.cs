@@ -4,15 +4,34 @@ using UnityEngine;
 
 public class ThrowItem : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public bool kunaiActive = false;
+    public bool shurikenActive = false;
+    public GameObject Kunai;
+    public GameObject Shuriken;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if(kunaiActive==true)
+        {
+            Kunai.active = true;
+            shurikenActive = false;
+        }
+        else
+        {
+            Kunai.active = false;
+        }
+        if(shurikenActive==true)
+        {
+            Shuriken.active = true;
+            kunaiActive = false;
+        }
+        else
+        {
+            Shuriken.active = false;
+        }
     }
 }
