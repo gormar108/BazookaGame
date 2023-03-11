@@ -43,7 +43,6 @@ public class ThrowingTutorial : MonoBehaviour
         {
             if(Input.GetKeyDown(throwKey) && readyToThrow && totalThrows > 0)
             {
-                StartCoroutine(Delay());
                 animator.SetBool(isAttackingHash, true);
 
             }
@@ -51,15 +50,10 @@ public class ThrowingTutorial : MonoBehaviour
                 animator.SetBool(isAttackingHash, false);
             }
         }
-        IEnumerator Delay()
-        {
-            yield return new WaitForSeconds(0.3f);
-            Throw();
-        }
     }
 
 
-    private void Throw()
+    private void ThrowEvent()
     {
         readyToThrow = false;
 

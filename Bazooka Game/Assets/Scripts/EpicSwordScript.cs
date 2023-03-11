@@ -59,12 +59,11 @@ public class EpicSwordScript : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1))
         {
             animator.SetBool(isAttackHash, true);
-            DoDamage();
         }
         else {animator.SetBool(isAttackHash, false);}
     }
 
-    void DoDamage()
+    void DoDamageEvent()
     {
         if(Time.time-lastSwing<attackCooldown){return;}
         lastSwing = Time.time;
@@ -74,11 +73,6 @@ public class EpicSwordScript : MonoBehaviour
             Target target = hit.transform.GetComponent<Target>();
             if(target != null)
             {
-                StartCoroutine(Delay());
-            }
-            IEnumerator Delay()
-            {
-                yield return new WaitForSeconds(0.3f);
                 target.Damaged(damage);
             }
         }

@@ -79,7 +79,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   possibleSpin: 0
-  damage: 0
+  damage: 4
   spark: {fileID: 25412630737135704}
   blood: {fileID: 25412630737135704}
 --- !u!96 &3976530315192126416
