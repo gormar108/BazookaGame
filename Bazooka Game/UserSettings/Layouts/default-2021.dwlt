@@ -118,7 +118,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 60
+  controlID: 95
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 61
+  controlID: 96
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -213,8 +213,8 @@ MonoBehaviour:
     y: 0
     width: 275
     height: 773
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -832,22 +832,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\BazookaGame\Bazooka Game
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 4c590000
-    m_LastClickedID: 22860
-    m_ExpandedIDs: 00000000125900001459000016590000185900001a59000000ca9a3b
+    m_SelectedIDs: 18590000
+    m_LastClickedID: 22808
+    m_ExpandedIDs: 00000000185900001a5900001c5900001e5900002059000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -875,7 +875,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000125900001459000016590000185900001a590000
+    m_ExpandedIDs: 00000000185900001a5900001c5900001e59000020590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -900,8 +900,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 86e9ffff
-    m_LastClickedInstanceID: -5754
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000e6580000
     m_RenameOverlay:
@@ -993,14 +993,14 @@ MonoBehaviour:
     - {fileID: 1537010290343655394, guid: 76df8cd9daf4c2b42a259772e04f1c46, type: 2}
     - {fileID: 1537010290343655394, guid: fb647e98de982cc41a93828ccdcfa4a0, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.6903533
+    - e00: 0.8138384
       e01: 0
       e02: 0
-      e03: 190.01822
+      e03: 41.18341
       e10: 0
-      e11: 0.6903533
+      e11: 0.8138384
       e12: 0
-      e13: 126.47402
+      e13: 16.93908
       e20: 0
       e21: 0
       e22: 1
@@ -1042,9 +1042,9 @@ MonoBehaviour:
       e32: 0
       e33: 1
   m_PreviewAnimator: {fileID: 0}
-  m_AnimatorController: {fileID: 9100000, guid: fb647e98de982cc41a93828ccdcfa4a0, type: 2}
+  m_AnimatorController: {fileID: 9100000, guid: c2510e7f6e65794499d506b3bfd8d6f2, type: 2}
   m_BreadCrumbs:
-  - m_Target: {fileID: 1537010290343655394, guid: fb647e98de982cc41a93828ccdcfa4a0, type: 2}
+  - m_Target: {fileID: -4304718944273780569, guid: c2510e7f6e65794499d506b3bfd8d6f2, type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
   stateMachineGraphGUI: {fileID: 0}
@@ -1087,7 +1087,7 @@ MonoBehaviour:
     m_SaveData: []
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -5754
+  m_LastSelectedObjectID: -1582
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
