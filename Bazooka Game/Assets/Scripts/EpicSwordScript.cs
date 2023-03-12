@@ -6,6 +6,7 @@ public class EpicSwordScript : MonoBehaviour
 {
     Animator animator;
     int isAttackHash;
+    int isAttackHash2;
     int isDefendHash;
     int isSheathedHash;
     public bool isSheathed = true;
@@ -23,6 +24,7 @@ public class EpicSwordScript : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         isAttackHash = Animator.StringToHash("isAttack");
+        isAttackHash2 = Animator.StringToHash("isAttack2");
         isDefendHash = Animator.StringToHash("isDefend");
         isSheathedHash = Animator.StringToHash("isSheathed");
 
@@ -58,9 +60,21 @@ public class EpicSwordScript : MonoBehaviour
         
         if(Input.GetKeyDown(KeyCode.Mouse0)&&!Input.GetKey(KeyCode.Mouse1))
         {
-            animator.SetBool(isAttackHash, true);
+            float randomNumber = Random.Range(0, 2);
+            if(randomNumber==0)
+            {
+                animator.SetBool(isAttackHash, true);
+            }
+            else
+            {
+                animator.SetBool(isAttackHash2, true);
+            }
         }
-        else {animator.SetBool(isAttackHash, false);}
+        else 
+        {
+            animator.SetBool(isAttackHash, false);
+            animator.SetBool(isAttackHash2, false);
+        }
     }
 
     void DoDamageEvent()
