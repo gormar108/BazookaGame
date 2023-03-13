@@ -12,6 +12,7 @@ public class EpicSwordScript : MonoBehaviour
     public bool isSheathed = true;
     public Camera mainCam;
     public GameObject slot2Script;
+    public bool isDefending;
 
     public float attackCooldown = 3f;
     public float range = 50f;
@@ -50,9 +51,15 @@ public class EpicSwordScript : MonoBehaviour
     void Defend()
     {
         if(Input.GetKey(KeyCode.Mouse1)&&!Input.GetKey(KeyCode.Mouse0))
-                animator.SetBool(isDefendHash, true);
-            else
-                animator.SetBool(isDefendHash, false);
+        {
+            animator.SetBool(isDefendHash, true);
+            isDefending = true;
+        }
+        else
+        {
+            animator.SetBool(isDefendHash, false);
+            isDefending = false;
+        }
     }
 
     void Swing()
