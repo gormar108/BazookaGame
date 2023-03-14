@@ -299,6 +299,7 @@ MonoBehaviour:
   isSheathed: 1
   mainCam: {fileID: 8534530928595014976}
   slot2Script: {fileID: 8219412432281194685}
+  isDefending: 0
   attackCooldown: 0.5
   range: 8
   damage: 3
@@ -425,7 +426,7 @@ MonoBehaviour:
   objectToThrow: {fileID: 2053993810223301754, guid: 5a8a9fd33129b7c4c8f25dd0688ec089, type: 3}
   slot1Script: {fileID: 2360571023328708193}
   totalThrows: 20
-  throwCooldown: 1
+  throwCooldown: 0.3
   isNotEquipped: 1
   throwKey: 323
   equipKey: 50
@@ -941,8 +942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00fc29d8c7f674d45aca820da5b34a4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  walkSpeed: 150
-  sprintSpeed: 300
+  walkSpeed: 175
+  sprintSpeed: 350
   currentMoveSpeed: 0
   jumpHeight: 50
   playerBody: {fileID: 8534530927937981280}
@@ -962,7 +963,7 @@ MonoBehaviour:
   grounded: 0
   dragOnGround: 10
   speedInAirMultiplier: 0
-  fixedJumpCooldown: 0.6
+  fixedJumpCooldown: 0.4
   readyToJump: 0
   speedx: 0
   speedz: 0
