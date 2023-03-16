@@ -11,6 +11,7 @@ public class ThrowingTutorial : MonoBehaviour
     public Transform attackPoint;
     public GameObject objectToThrow;
     public GameObject slot1Script;
+    public GameObject projectileTrail;    
 
     [Header("Settings")]
     public int totalThrows;
@@ -103,7 +104,15 @@ public class ThrowingTutorial : MonoBehaviour
         }
         
     }
-    
+
+    void EnableTrailEvent()
+    {
+        projectileTrail.active = true;
+    }
+    void DisableTrailEvent()
+    {
+        projectileTrail.active = false;
+    }
 
     private void ResetThrow()
     {

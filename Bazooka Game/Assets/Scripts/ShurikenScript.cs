@@ -45,6 +45,7 @@ public class ShurikenScript : MonoBehaviour
             rb.freezeRotation = true;
             rb.isKinematic = true;
             GetComponent<BoxCollider>().enabled = false;
+            gameObject.transform.parent = other.transform;
             StartCoroutine(Despawn());
         }
     }
