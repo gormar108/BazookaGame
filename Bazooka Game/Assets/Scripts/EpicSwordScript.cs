@@ -12,6 +12,7 @@ public class EpicSwordScript : MonoBehaviour
     public bool isSheathed = true;
     public Camera mainCam;
     public GameObject slot2Script;
+    public GameObject trail;
     public bool isDefending;
 
     public float attackCooldown = 3f;
@@ -97,6 +98,14 @@ public class EpicSwordScript : MonoBehaviour
                 target.Damaged(damage);
             }
         }
+    }
+    void EnableTrailEvent()
+    {
+        trail.active = true;
+    }
+    void DisableTrailEvent()
+    {
+        trail.active = false;
     }
     void Sheathed()
     {
