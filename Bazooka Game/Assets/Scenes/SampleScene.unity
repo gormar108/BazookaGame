@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.077
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.01388185, g: 0.01738001, b: 0.023633055, a: 0.077}
+  m_IndirectSpecularColor: {r: 0.01388186, g: 0.017380029, b: 0.023633106, a: 0.077}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -322,6 +322,24 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8744557415589775879, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
   m_PrefabInstance: {fileID: 8534530928437147699}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &606378662 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8534530928152502504, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
+  m_PrefabInstance: {fileID: 8534530928437147699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &606378664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 606378662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93948b8f8a591dd4d9650f930c372d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  touchingWall: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,6 +1133,7 @@ GameObject:
   - component: {fileID: 1400889701}
   - component: {fileID: 1400889700}
   - component: {fileID: 1400889704}
+  - component: {fileID: 1400889705}
   m_Layer: 6
   m_Name: Obstacle
   m_TagString: Untagged
@@ -1213,6 +1232,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 100
+--- !u!114 &1400889705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1400889699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 527330dbb8c727840b7a24a32bc60026, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objTags:
+  - wall
 --- !u!1 &1481709054
 GameObject:
   m_ObjectHideFlags: 0

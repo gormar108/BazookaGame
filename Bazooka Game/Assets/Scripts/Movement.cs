@@ -9,6 +9,7 @@ public class Movement : MonoBehaviour
     public float sprintSpeed;
     public float currentMoveSpeed;
     public float jumpHeight;
+    public bool sprinting;
     
     Vector3 moveDirection;
 
@@ -41,15 +42,18 @@ public class Movement : MonoBehaviour
 
     [SerializeField] float speedx;
     [SerializeField] float speedz;
+    [SerializeField] float totalSpeed;
     
-
     public float gravityScale = 5f;
+
+    CollisionHandler clsnScript;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
         ResetJump();
+        clsnScript = GetComponent<CollisionHandler>();
     }
 
     void Update()
@@ -111,11 +115,31 @@ public class Movement : MonoBehaviour
     {
         speedx = rb.velocity.x;
         speedz = rb.velocity.z;
+
+        //Perform Pythagoras' Theorem on speeds to get total speed regardless of individual axes
+        totalSpeed = Mathf.Sqrt((speedx * speedx) + (speedz * speedz));
     }
 
     void CheckSprint()
     {
-        if (Input.GetKey(KeyCode.LeftControl) && Input.GetKey(KeyCode.W))
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.LeftControl))
+        {
+            if (Input.GetKeyDown(KeyCode.LeftControl))
+            {
+                sprinting = true;
+            }
+        }
+        else
+        {
+            sprinting = false;
+        }
+
+        if (clsnScript.touchingWall)
+        {
+            sprinting = false;
+        }
+
+        if (sprinting)
         {
             currentMoveSpeed = sprintSpeed;
             speedInAirMultiplier = 0.19f;
