@@ -1532,7 +1532,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705577709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.98, y: 17.03, z: 51.97}
+  m_LocalPosition: {x: -27.98, y: 17.03, z: 50.41}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1629,7 +1629,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785031306}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -27.83, y: 13.57, z: 54.05}
+  m_LocalPosition: {x: -27.83, y: 13.57, z: 52.489998}
   m_LocalScale: {x: 8.28051, y: 2.0986953, z: 8.28051}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2068,11 +2068,11 @@ PrefabInstance:
       objectReference: {fileID: 2068866998}
     - target: {fileID: 1472079365, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
       propertyPath: kunaiActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1472079365, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
       propertyPath: shurikenActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2360571023328708199, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
       propertyPath: trail

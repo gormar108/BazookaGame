@@ -15,7 +15,7 @@ D:/BazookaGame/Bazooka Game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-59720
+63319
 Successfully changed project path to: D:/BazookaGame/Bazooka Game
 D:/BazookaGame/Bazooka Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/BazookaGame/Bazooka Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [77632] Host "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 3321652854 [EditorId] 3321652854 [Version] 1048832 [Id] WindowsEditor(7,ZAZI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [80300] Host "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 3596025110 [EditorId] 3596025110 [Version] 1048832 [Id] WindowsEditor(7,ZAZI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [77632] Host "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 3321652854 [EditorId] 3321652854 [Version] 1048832 [Id] WindowsEditor(7,ZAZI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [80300] Host "[IP] 192.168.1.102 [Port] 0 [Flags] 2 [Guid] 3596025110 [EditorId] 3596025110 [Version] 1048832 [Id] WindowsEditor(7,ZAZI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 99.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 125.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
@@ -67,105 +67,105 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56500
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008981 seconds.
+Registered in 0.009435 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 90.90 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.849 seconds
+- Completed reload, in  1.125 seconds
 Domain Reload Profiling:
-	ReloadAssembly (850ms)
-		BeginReloadAssembly (121ms)
+	ReloadAssembly (1126ms)
+		BeginReloadAssembly (137ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (586ms)
-			LoadAssemblies (119ms)
+		EndReloadAssembly (836ms)
+			LoadAssemblies (134ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (131ms)
+			SetupTypeCache (303ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (354ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (410ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (91ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (178ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004297 seconds.
+Registered in 0.003601 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002A16209EAA0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-000001E7D41702D0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1639BA250 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001E7D41463E0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16209EAA0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-000001E7D2C3FA10 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16209EAA0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file data-000001E7D2C3FA10 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1639BA250 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-000001E7D3FFB820 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163807840 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-000001E7D41519F0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163700080 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file data-000001E7D2DF3040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1639E6A80 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file data-000001E7D4F23020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1640B2020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file data-000001E7D4F23020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163700080 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-000001E7D217A050 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163720C90 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-000001E7D219AC60 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16400D010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file data-000001E7D4075A50 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163720C90 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-000001E7D219AC60 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163720C90 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file data-000001E7D40D4860 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1640BFD60 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-000001E7D1EE6090 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1637500A0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file data-000001E7D1EE6090 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16402A160 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file data-000001E7D1EE6090 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16402A160 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file data-000001E7D266BFB0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A162048040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-000001E7D40D4860 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16402A160 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-000001E7D28C5430 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163C94A20 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-000001E7D415AE00 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A162048040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file data-000001E7D40D4860 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A162376220 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-000001E7D2704900 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A162048040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file data-000001E7D4F23020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A162376220 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file data-000001E7D1FA8A50 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A162048040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001E7D4F23020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
   at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <4804f52e542445dcaaf913a08d8c42de>:0 
@@ -185,43 +185,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.999 seconds
+- Completed reload, in  2.449 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2000ms)
-		BeginReloadAssembly (153ms)
+	ReloadAssembly (2450ms)
+		BeginReloadAssembly (169ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (1695ms)
-			LoadAssemblies (149ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (2078ms)
+			LoadAssemblies (193ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (480ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (966ms)
+			SetupTypeCache (456ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (1250ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (814ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (1036ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3056 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 23 unused Assets / (87.6 KB). Loaded Objects now: 3527.
 Memory consumption went from 181.3 MB to 181.2 MB.
-Total: 19.113200 ms (FindLiveObjects: 0.407700 ms CreateObjectMapping: 0.211000 ms MarkObjects: 18.039800 ms  DeleteObjects: 0.451300 ms)
+Total: 19.854800 ms (FindLiveObjects: 0.680600 ms CreateObjectMapping: 0.651800 ms MarkObjects: 18.235600 ms  DeleteObjects: 0.283700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -235,492 +235,66 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 269203.085316 seconds.
-  path: Assets/Prefabs/Kunai.prefab
-  artifactKey: Guid(5a8a9fd33129b7c4c8f25dd0688ec089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Kunai.prefab using Guid(5a8a9fd33129b7c4c8f25dd0688ec089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99313cd0e053e7777ed501c79518db98') in 0.189035 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.500597 seconds.
-  path: Assets/Prefabs/Kunai.prefab
-  artifactKey: Guid(5a8a9fd33129b7c4c8f25dd0688ec089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Kunai.prefab using Guid(5a8a9fd33129b7c4c8f25dd0688ec089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4762e148fa0deda67d92e952b277596') in 0.024533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 292.197472 seconds.
-  path: Assets/Prefabs/Shuriken.prefab
-  artifactKey: Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shuriken.prefab using Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7230b42ada8ae35d1b6095ad5bdf4cdb') in 0.037983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.802100 seconds.
-  path: Assets/Prefabs/Shuriken.prefab
-  artifactKey: Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shuriken.prefab using Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854be33b7adf20c399d5fb9f87babe75') in 0.023770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.382747 seconds.
-  path: Assets/Prefabs/Shuriken.prefab
-  artifactKey: Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shuriken.prefab using Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0901cd29001489f5a76531d1440712a3') in 0.018815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.591612 seconds.
-  path: Assets/Prefabs/Shuriken.prefab
-  artifactKey: Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shuriken.prefab using Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9e57f544ce76be3f31d1b239cae221') in 0.024209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.838674 seconds.
-  path: Assets/Prefabs/Shuriken.prefab
-  artifactKey: Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shuriken.prefab using Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a86ecc10ce2c8c97651f9052c4b5bd1') in 0.025096 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.251662 seconds.
-  path: Assets/Prefabs/Shuriken.prefab
-  artifactKey: Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shuriken.prefab using Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4c6078b79b70a02835bc1fdd0a0289') in 0.023819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.512006 seconds.
-  path: Assets/Prefabs/Shuriken.prefab
-  artifactKey: Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Shuriken.prefab using Guid(30fbc1fecaf48474d9ed05d5e85ed66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaee51625f177a473f39eb175e816e9') in 0.023467 seconds 
+  Time since last request: 274134.564004 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(a32efe4c1d6b701469f777cf4b916a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(a32efe4c1d6b701469f777cf4b916a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f521a0947fa86e0cc7ea671095a8fd76') in 0.245876 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003070 seconds.
+Registered in 0.003307 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000002A1641B4A30 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file data-000001E7D2A23CE0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161A7D8E0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file data-000001E7D549D020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1683FC010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A164B1F650 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16441B010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A168790010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161A7D8E0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16A259D40 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A168799420 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1652AD010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1649B1A50 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A168A30020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161A515F0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163BBE010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167B5A030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A164B1F650 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161BC3C30 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161A515F0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163BBE010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A169E68720 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163BBE010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163BBE010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16A0A4020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A165571020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167A9C700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167B5A030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001E7D5447010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.352 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2353ms)
-		BeginReloadAssembly (191ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (2042ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (435ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (1001ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (173ms)
-				ProcessInitializeOnLoadAttributes (752ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (81.8 KB). Loaded Objects now: 3541.
-Memory consumption went from 185.7 MB to 185.6 MB.
-Total: 15.791400 ms (FindLiveObjects: 0.665100 ms CreateObjectMapping: 0.117600 ms MarkObjects: 14.778700 ms  DeleteObjects: 0.227200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003164 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A16207EA50 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16189B040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16546D040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16207EA50 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16441B010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1625A1010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161A7D8E0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16A4DDFA0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16546D040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A163700080 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167A9C700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A165889020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A160996010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167068010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1621B2C30 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1625AA420 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1625AA420 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A160996010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167068010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A169E68720 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167068010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167068010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16A13A010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16411C800 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167915040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1621B2C30 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.994 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1996ms)
-		BeginReloadAssembly (176ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (1700ms)
-			LoadAssemblies (105ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (406ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (754ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (590ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (80.0 KB). Loaded Objects now: 3545.
-Memory consumption went from 185.7 MB to 185.6 MB.
-Total: 22.309300 ms (FindLiveObjects: 0.900500 ms CreateObjectMapping: 0.422700 ms MarkObjects: 20.539700 ms  DeleteObjects: 0.442400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002919 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A161AA0020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16189B040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16546D040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167C80040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16441B010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A164A1E030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161A7D8E0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16A7AB030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16546D040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A168661020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167A9C700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A168A30020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A160996010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A164A1E030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A160B80010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A160B80010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A160B80010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A160996010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A164A1E030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161D9CE60 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A164A1E030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A165569010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16A01E060 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16411C800 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A169E68720 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A160B80010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <4804f52e542445dcaaf913a08d8c42de>:0 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  2.022 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2023ms)
-		BeginReloadAssembly (200ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (1702ms)
-			LoadAssemblies (107ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (387ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (785ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (607ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (80.0 KB). Loaded Objects now: 3549.
-Memory consumption went from 185.7 MB to 185.7 MB.
-Total: 16.085700 ms (FindLiveObjects: 0.633000 ms CreateObjectMapping: 0.129700 ms MarkObjects: 14.864800 ms  DeleteObjects: 0.453800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004206 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000002A1623B7030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16189B040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16546D040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167010020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16441B010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A164A1E030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161A7D8E0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A166D3C020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16546D040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A168661020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167D5A010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A165889020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1639A7020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167F26020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161DD8E70 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161DD8E70 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161DD8E70 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1639A7020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167F26020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A160B44000 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167F26020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A167F26020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16A13A010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A16411C800 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A1645A5C70 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000002A161DD8E70 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file data-000001E7D5447010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D41EA030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D5447010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2C279F0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D544CC20 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D85AD420 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D58C2020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D833A020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D5E34040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D43E8010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D56C2020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DAB5CA50 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8D03440 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8D03440 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA4E0280 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D56C2020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA4E0280 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D56C2020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D56C2020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DAA99020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D56C2020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8540080 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DAB5CA50 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -746,40 +320,544 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  2.075 seconds
+- Completed reload, in  2.711 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2076ms)
-		BeginReloadAssembly (200ms)
+	ReloadAssembly (2712ms)
+		BeginReloadAssembly (303ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (50ms)
-		EndReloadAssembly (1769ms)
-			LoadAssemblies (130ms)
+			CreateAndSetChildDomain (79ms)
+		EndReloadAssembly (2214ms)
+			LoadAssemblies (225ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (411ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (86ms)
-			SetupLoadedEditorAssemblies (776ms)
+			SetupTypeCache (510ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (1022ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (826ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (81.5 KB). Loaded Objects now: 3543.
+Memory consumption went from 185.7 MB to 185.7 MB.
+Total: 24.963100 ms (FindLiveObjects: 1.125100 ms CreateObjectMapping: 0.597200 ms MarkObjects: 22.526100 ms  DeleteObjects: 0.710700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004022 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E7D779B010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D470F020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D1FCF020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D1FCF020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D90B0010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D52080B0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D5738020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D88D9010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D88D9010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8053040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D74200B0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D5E34040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8540080 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D52080B0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D276D700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D276D700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D276D700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2113010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D439B020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8CC7430 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D439B020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D0C8D980 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA7DC030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D0C8D980 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D1FF0280 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8D04640 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.912 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2915ms)
+		BeginReloadAssembly (391ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (106ms)
+		EndReloadAssembly (2326ms)
+			LoadAssemblies (285ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (524ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (89ms)
+			SetupLoadedEditorAssemblies (1027ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (631ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (14ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (804ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 17 unused Assets / (79.8 KB). Loaded Objects now: 3553.
+Unloading 17 unused Assets / (79.9 KB). Loaded Objects now: 3547.
+Memory consumption went from 185.7 MB to 185.7 MB.
+Total: 25.468200 ms (FindLiveObjects: 1.033400 ms CreateObjectMapping: 0.779000 ms MarkObjects: 23.003200 ms  DeleteObjects: 0.648900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004836 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E7D86FF020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D89BC020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D1225B10 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D86FF020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D549D020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D46EF040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D89BC020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D5651FF0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D544F020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D4958030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA466020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D5E34040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8540080 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D46EF040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2946700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2946700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2946700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D20E6E30 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D46EF040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8CC7430 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D46EF040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D46EF040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA7DC030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D1225B10 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D9378050 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8D04640 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.792 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2794ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2386ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (610ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1026ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (826ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (79.9 KB). Loaded Objects now: 3551.
 Memory consumption went from 185.8 MB to 185.7 MB.
-Total: 17.815200 ms (FindLiveObjects: 0.568400 ms CreateObjectMapping: 0.102900 ms MarkObjects: 16.875300 ms  DeleteObjects: 0.266000 ms)
+Total: 24.089700 ms (FindLiveObjects: 0.891400 ms CreateObjectMapping: 0.166900 ms MarkObjects: 22.569900 ms  DeleteObjects: 0.456500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010164 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E7D7BDF030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D470F020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D7BDF030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D7BDF030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D258F010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D75D0020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2C279F0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2A8D030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2A8D030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DAE29020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA466020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D5E34040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D594A010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D7B83020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA51C290 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA51C290 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA51C290 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D566AAC0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D7B83020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D290A6F0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA8D6010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D7B83020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA382010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA406010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D26C76F0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2947900 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.582 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2584ms)
+		BeginReloadAssembly (239ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2207ms)
+			LoadAssemblies (163ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (462ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1027ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (788ms)
+				ProcessInitializeOnLoadMethodAttributes (41ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (79.9 KB). Loaded Objects now: 3555.
+Memory consumption went from 185.8 MB to 185.7 MB.
+Total: 22.200000 ms (FindLiveObjects: 0.895800 ms CreateObjectMapping: 0.772600 ms MarkObjects: 19.994400 ms  DeleteObjects: 0.532300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004904 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001E7D1225B10 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Assembly-CSharp.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D470F020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8258050 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D1225B10 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D57E6010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D52080B0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA923B70 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8258050 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8258050 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Settings.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D3FC5010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7DA466020 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D5E34040 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D594A010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D52080B0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D88C3A60 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2946700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2946700 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D566AAC0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D52080B0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8CC7430 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D52080B0 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D0C8D980 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D783D010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2BB3010 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.State.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D2DB7030 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001E7D8D04640 doesn't match image D:\BazookaGame\Bazooka Game\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\BazookaGame\Bazooka Game\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00048] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x0052c] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00018] in <4804f52e542445dcaaf913a08d8c42de>:0 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in <4804f52e542445dcaaf913a08d8c42de>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.738 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2739ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2352ms)
+			LoadAssemblies (161ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (623ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (1029ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (837ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3051 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (79.9 KB). Loaded Objects now: 3559.
+Memory consumption went from 185.8 MB to 185.7 MB.
+Total: 21.727600 ms (FindLiveObjects: 0.837400 ms CreateObjectMapping: 0.265500 ms MarkObjects: 20.241800 ms  DeleteObjects: 0.380500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
