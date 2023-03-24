@@ -17,7 +17,7 @@ public class CollisionHandler : MonoBehaviour
     {
         if (touchingWall)
         {
-            Debug.Log("Touching a wall");
+            //Debug.Log("Touching a wall");
         }
     }
 

@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
 {
     public float walkSpeed;
     public float sprintSpeed;
+    public float crouchSpeed;
     public float currentMoveSpeed;
     public float jumpHeight;
     public bool sprinting;
@@ -39,6 +40,10 @@ public class Movement : MonoBehaviour
     public float fixedJumpCooldown;
     public bool readyToJump;
 
+    public bool sliding;
+    public float slideCooldown = 2f;
+
+    public bool crouching;
 
     [SerializeField] float speedx;
     [SerializeField] float speedz;
@@ -47,6 +52,8 @@ public class Movement : MonoBehaviour
     public float gravityScale = 5f;
 
     CollisionHandler clsnScript;
+
+    public Transform PlayerCam;
 
     void Start()
     {
@@ -62,6 +69,8 @@ public class Movement : MonoBehaviour
         GetInput();
         LiveSpeedInEditor();
         CheckSprint();
+        HandleCrouchAndSlide();
+        SetMoveSpeed();
     }
 
     void FixedUpdate()
@@ -92,6 +101,45 @@ public class Movement : MonoBehaviour
         }
     }
 
+    void CheckSprint()
+    {
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.LeftControl))
+        {
+            if (Input.GetKeyDown(KeyCode.LeftControl))
+            {
+                sprinting = true;
+            }
+        }
+        else
+        {
+            sprinting = false;
+        }
+
+        if (clsnScript.touchingWall)
+        {
+            //sprinting = false;
+        }
+    }
+
+    void SetMoveSpeed()
+    {
+        if (sprinting)
+        {
+            currentMoveSpeed = sprintSpeed;
+            speedInAirMultiplier = 0.22f;
+        }
+        else
+        {
+            currentMoveSpeed = walkSpeed;
+            speedInAirMultiplier = 0.1f;
+        }
+        if (crouching)
+        {
+            currentMoveSpeed = crouchSpeed;
+            speedInAirMultiplier = 0.1f;
+        }
+    }
+
     void MovePlayer()
     {
         moveDirection = playerBody.forward * vertInput + playerBody.right * horizInput;
@@ -111,44 +159,43 @@ public class Movement : MonoBehaviour
 
     }
 
+    void HandleCrouchAndSlide()
+    {
+        if (sprinting && Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.LeftControl) && Input.GetKeyDown(KeyCode.LeftShift) && !crouching && !sliding && grounded)
+        {
+            sliding = true;
+            Invoke(nameof(ResetSlide), slideCooldown);
+            Slide();
+        }
+        else if (Input.GetKey(KeyCode.LeftShift) && !sliding)
+        {
+            crouching = true;
+            sprinting = false;
+            Crouch();
+        }
+        else if (Input.GetKeyUp(KeyCode.LeftShift))
+        {
+            crouching = false;
+        }
+    }
+    
+    void Crouch()
+    {
+        
+    }
+
+    void Slide()
+    {
+        Debug.Log("Sliding");
+    }
+
     void LiveSpeedInEditor()
     {
         speedx = rb.velocity.x;
         speedz = rb.velocity.z;
 
-        //Perform Pythagoras' Theorem on speeds to get total speed regardless of individual axes
+        //Perform Pythagoras' Theorem on speeds to get total speed independant of individual axes
         totalSpeed = Mathf.Sqrt((speedx * speedx) + (speedz * speedz));
-    }
-
-    void CheckSprint()
-    {
-        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.LeftControl))
-        {
-            if (Input.GetKeyDown(KeyCode.LeftControl))
-            {
-                sprinting = true;
-            }
-        }
-        else
-        {
-            sprinting = false;
-        }
-
-        if (clsnScript.touchingWall)
-        {
-            sprinting = false;
-        }
-
-        if (sprinting)
-        {
-            currentMoveSpeed = sprintSpeed;
-            speedInAirMultiplier = 0.19f;
-        }
-        else
-        {
-            currentMoveSpeed = walkSpeed;
-            speedInAirMultiplier = 0.1f;
-        }
     }
 
     void Jump()
@@ -160,5 +207,10 @@ public class Movement : MonoBehaviour
     void ResetJump()
     {
         readyToJump = true;
+    }
+
+    void ResetSlide()
+    {
+        sliding = false;
     }
 }
