@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3955603571174952301}
   - component: {fileID: 2451288482954981366}
   - component: {fileID: 6588917793864542964}
+  - component: {fileID: 579296054775130730}
   m_Layer: 0
   m_Name: Explosion(sparks)
   m_TagString: Untagged
@@ -26,8 +27,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4288465793318029628}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -22.57832, y: 4.409809, z: 8.544088}
-  m_LocalScale: {x: 3.4307, y: 3.4307, z: 3.4307}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 719380055099748196}
@@ -4875,6 +4876,20 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &579296054775130730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4288465793318029628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd4ab72c3f0ea7944925497bf329e563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 10
+  force: 500
 --- !u!1 &6120557975444392598
 GameObject:
   m_ObjectHideFlags: 0
@@ -4902,7 +4917,7 @@ Transform:
   m_GameObject: {fileID: 6120557975444392598}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.1932, y: 2.1932, z: 2.1932}
+  m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3955603571174952301}
@@ -9773,7 +9788,7 @@ Transform:
   m_GameObject: {fileID: 7274647901911800913}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.1932, y: 2.1932, z: 2.1932}
+  m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3955603571174952301}
@@ -14643,7 +14658,7 @@ Transform:
   m_GameObject: {fileID: 8338922794644857872}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.1932, y: 2.1932, z: 2.1932}
+  m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3955603571174952301}
@@ -19513,7 +19528,7 @@ Transform:
   m_GameObject: {fileID: 9040955771302170648}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.1932, y: 2.1932, z: 2.1932}
+  m_LocalScale: {x: 7, y: 7, z: 7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3955603571174952301}
