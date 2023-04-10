@@ -5714,6 +5714,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden_barrel (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313896356426755865, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
 --- !u!1 &2068866998
@@ -5920,6 +5928,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden_barrel (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313896356426755865, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
 --- !u!4 &807040893557563018
@@ -5949,7 +5965,7 @@ GameObject:
   - component: {fileID: 812905708404641460}
   - component: {fileID: 823865792410454400}
   - component: {fileID: 853744890163105106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6032,7 +6048,7 @@ GameObject:
   - component: {fileID: 4212488644760484034}
   - component: {fileID: 4203149996827085306}
   - component: {fileID: 4243543081370332036}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Tree_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6130,7 +6146,7 @@ GameObject:
   - component: {fileID: 4925317621782084494}
   - component: {fileID: 4931446161475071022}
   - component: {fileID: 4956026230119487846}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Well1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6257,7 +6273,7 @@ GameObject:
   - component: {fileID: 5893379861003569348}
   - component: {fileID: 5900359089086573900}
   - component: {fileID: 5860356121237954664}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rock_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6368,6 +6384,14 @@ PrefabInstance:
     - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
       propertyPath: m_Name
       value: Wooden_barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7313896356426755865, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
@@ -6527,7 +6551,7 @@ GameObject:
   - component: {fileID: 7539356526238707956}
   - component: {fileID: 7530028180131397364}
   - component: {fileID: 7508577778528688984}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wc
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6545,7 +6569,7 @@ GameObject:
   - component: {fileID: 7549467569528143536}
   - component: {fileID: 7539979065596908608}
   - component: {fileID: 7530092907749196636}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wc_door
   m_TagString: Untagged
   m_Icon: {fileID: 0}

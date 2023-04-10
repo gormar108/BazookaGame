@@ -35,14 +35,14 @@ public class ShurikenScript : MonoBehaviour
             if(target != null)
             {
                 target.Damaged(damage);
+                if(target.isEnemy) 
+                {
+                    blood.Play();
+                }
             }
             else
             {
                 spark.Play();
-            }
-            if(target.isEnemy ==true) 
-            {
-                blood.Play();
             }
             canSpin = false;
             rb.freezeRotation = true;
