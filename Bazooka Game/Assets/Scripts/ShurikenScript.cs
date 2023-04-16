@@ -34,6 +34,7 @@ public class ShurikenScript : MonoBehaviour
             Target target = other.transform.GetComponent<Target>();
             if(target != null)
             {
+                gameObject.transform.parent = other.transform;
                 target.Damaged(damage);
                 if(target.isEnemy) 
                 {
@@ -48,7 +49,6 @@ public class ShurikenScript : MonoBehaviour
             rb.freezeRotation = true;
             rb.isKinematic = true;
             GetComponent<BoxCollider>().enabled = false;
-            gameObject.transform.parent = other.transform;
             StartCoroutine(Despawn());
         }
     }
