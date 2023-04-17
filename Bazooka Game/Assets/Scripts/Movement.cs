@@ -53,7 +53,7 @@ public class Movement : MonoBehaviour
 
     CollisionHandler clsnScript;
 
-    public Transform PlayerCam;
+    public Camera PlayerCam;
 
     void Start()
     {
