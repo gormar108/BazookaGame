@@ -17,6 +17,7 @@ public class EpicSwordScript : MonoBehaviour
 
     public float attackCooldown = 3f;
     public float range = 50f;
+    public float radius = 10f;
     public float damage = 3f;
 
     float lastSwing;
@@ -90,7 +91,7 @@ public class EpicSwordScript : MonoBehaviour
         if(Time.time-lastSwing<attackCooldown){return;}
         lastSwing = Time.time;
         RaycastHit hit;
-        if (Physics.Raycast(mainCam.transform.position, mainCam.transform.forward, out hit, range))
+        if (Physics.SphereCast(mainCam.transform.position, radius, mainCam.transform.forward, out hit, range))
         {
             Target target = hit.transform.GetComponent<Target>();
             if(target != null)
