@@ -349,6 +349,7 @@
 "Assets/Scripts/EpicSwordScript.cs"
 "Assets/Scripts/ExplosionScript.cs"
 "Assets/Scripts/Interacting/Interactable.cs"
+"Assets/Scripts/Interacting/Interactables/ExplodingBarrel.cs"
 "Assets/Scripts/Interacting/Interactables/Test.cs"
 "Assets/Scripts/Interacting/PlayerInteract.cs"
 "Assets/Scripts/MouseLook.cs"

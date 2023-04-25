@@ -28,11 +28,14 @@ public class PlayerInteract : MonoBehaviour
         {
             if(hitinfo.collider.GetComponent<Interactable>() != null)
             {
-                
-                Debug.Log(hitinfo.collider.GetComponent<Interactable>().promptMessage);
+                Interactable interactable = hitinfo.collider.GetComponent<Interactable>();
+                Debug.Log(interactable.promptMessage);
                 canvasText.active = true;
-                textlabel.text = hitinfo.collider.GetComponent<Interactable>().promptMessage;
-
+                textlabel.text = interactable.promptMessage;
+                if(Input.GetKeyDown(KeyCode.E))
+                {
+                    interactable.BaseInteract();
+                }
             }
 
         }
