@@ -888,6 +888,7 @@ MonoBehaviour:
   isDefending: 0
   attackCooldown: 0.5
   range: 8
+  radius: 1.5
   damage: 3
 --- !u!1 &8219412432281194685
 GameObject:
@@ -1485,9 +1486,9 @@ MonoBehaviour:
   groundCheck7: {fileID: 8534530927483446825}
   groundCheck8: {fileID: 8534530928150682001}
   groundDistance: 3.1
-  thisIsGround:
+  walkableLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 320
   grounded: 0
   dragOnGround: 10
   speedInAirMultiplier: 0
