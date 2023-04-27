@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class ExplodingBarrel : Interactable
 {
+    public ParticleSystem boom;
+    public Transform boomPoint;
+    public float waitTime = 5f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +22,14 @@ public class ExplodingBarrel : Interactable
 
     protected override void Interact()
     {
-        Debug.Log("Interacted with me" + gameObject.name);
+        //Debug.Log("Interacted with me" + gameObject.name);
+        StartCoroutine(IgniteTime());
         
+    }
+    IEnumerator IgniteTime()
+    {
+        yield return new WaitForSeconds(waitTime);
+        Instantiate(boom, boomPoint.position, boomPoint.rotation);
+        Destroy(gameObject);
     }
 }

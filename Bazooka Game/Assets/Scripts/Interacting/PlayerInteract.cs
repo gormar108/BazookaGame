@@ -29,9 +29,9 @@ public class PlayerInteract : MonoBehaviour
             if(hitinfo.collider.GetComponent<Interactable>() != null)
             {
                 Interactable interactable = hitinfo.collider.GetComponent<Interactable>();
-                Debug.Log(interactable.promptMessage);
+                //Debug.Log(interactable.promptMessage);
                 canvasText.active = true;
-                textlabel.text = interactable.promptMessage;
+                textlabel.text = "Press E to " + interactable.promptMessage;
                 if(Input.GetKeyDown(KeyCode.E))
                 {
                     interactable.BaseInteract();

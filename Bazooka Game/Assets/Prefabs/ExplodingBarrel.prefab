@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 2785415127427481581}
   - component: {fileID: 2746223761889394059}
   - component: {fileID: 2746223761889394068}
-  m_Layer: 0
+  - component: {fileID: 1868893820}
+  m_Layer: 8
   m_Name: ExplodingBarrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,8 +98,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.0274075, y: 1.1277919, z: 1.0274075}
-  m_Center: {x: 0, y: 0.56389594, z: 0}
+  m_Size: {x: 1.0274075, y: 1.1664752, z: 1.0274075}
+  m_Center: {x: 0, y: 0.5832376, z: 0}
 --- !u!114 &2746223761889394068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,6 +117,22 @@ MonoBehaviour:
   explode: 1
   boom: {fileID: 2451288482954981366, guid: fa3b09af5c25d9945b33531558390150, type: 3}
   boomPoint: {fileID: 7313896356426755866}
+--- !u!114 &1868893820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2806303538150337303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 375a099951ff58a49a9490e7d31bb935, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  promptMessage: Ignite
+  boom: {fileID: 2451288482954981366, guid: fa3b09af5c25d9945b33531558390150, type: 3}
+  boomPoint: {fileID: 7313896356426755866}
+  waitTime: 5
 --- !u!1 &7313896356426755865
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +142,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7313896356426755866}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: boomPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}

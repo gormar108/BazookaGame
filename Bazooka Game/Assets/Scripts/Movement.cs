@@ -32,7 +32,7 @@ public class Movement : MonoBehaviour
     Rigidbody rb;
 
     public float groundDistance;
-    public LayerMask walkableLayers;
+    public LayerMask groundedLayers;
     public bool grounded;
 
     public float dragOnGround;
@@ -67,7 +67,7 @@ public class Movement : MonoBehaviour
 
     void LayerMaske()
     {
-        LayerMask walkableLayers = LayerMask.GetMask();
+        LayerMask groundedLayers = LayerMask.GetMask();
     }
 
     void Update()
@@ -88,7 +88,7 @@ public class Movement : MonoBehaviour
 
     void GroundCheck()
     {
-        if (Physics.Raycast(groundCheck.position, Vector3.down, groundDistance, walkableLayers) || Physics.Raycast(groundCheck1.position, Vector3.down, groundDistance, walkableLayers) || Physics.Raycast(groundCheck2.position, Vector3.down, groundDistance, walkableLayers) || Physics.Raycast(groundCheck3.position, Vector3.down, groundDistance, walkableLayers) || Physics.Raycast(groundCheck4.position, Vector3.down, groundDistance, walkableLayers) || Physics.Raycast(groundCheck5.position, Vector3.down, groundDistance, walkableLayers) || Physics.Raycast(groundCheck6.position, Vector3.down, groundDistance, walkableLayers) || Physics.Raycast(groundCheck7.position, Vector3.down, groundDistance, walkableLayers) || Physics.Raycast(groundCheck8.position, Vector3.down, groundDistance, walkableLayers))
+        if (Physics.Raycast(groundCheck.position, Vector3.down, groundDistance, groundedLayers) || Physics.Raycast(groundCheck1.position, Vector3.down, groundDistance, groundedLayers) || Physics.Raycast(groundCheck2.position, Vector3.down, groundDistance, groundedLayers) || Physics.Raycast(groundCheck3.position, Vector3.down, groundDistance, groundedLayers) || Physics.Raycast(groundCheck4.position, Vector3.down, groundDistance, groundedLayers) || Physics.Raycast(groundCheck5.position, Vector3.down, groundDistance, groundedLayers) || Physics.Raycast(groundCheck6.position, Vector3.down, groundDistance, groundedLayers) || Physics.Raycast(groundCheck7.position, Vector3.down, groundDistance, groundedLayers) || Physics.Raycast(groundCheck8.position, Vector3.down, groundDistance, groundedLayers))
             { grounded = true;}
         else { grounded = false;}
     }

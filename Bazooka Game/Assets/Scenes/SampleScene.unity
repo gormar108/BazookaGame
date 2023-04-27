@@ -733,14 +733,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden_barrel (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7313896356426755865, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
 --- !u!1 &312449076
@@ -4606,14 +4598,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden_barrel (3)
       objectReference: {fileID: 0}
-    - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7313896356426755865, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
 --- !u!1 &1713619179
@@ -5581,14 +5565,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wooden_barrel (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7313896356426755865, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
 --- !u!1001 &2094316273
@@ -5645,14 +5621,6 @@ PrefabInstance:
     - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
       propertyPath: m_Name
       value: Wooden_barrel (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7313896356426755865, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Layer
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
@@ -6055,14 +6023,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2746223761889394059, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Size.y
-      value: 1.0269186
-      objectReference: {fileID: 0}
-    - target: {fileID: 2746223761889394059, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Center.y
-      value: 0.5134593
-      objectReference: {fileID: 0}
     - target: {fileID: 2802860564061558255, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6110,14 +6070,6 @@ PrefabInstance:
     - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
       propertyPath: m_Name
       value: Wooden_barrel
-      objectReference: {fileID: 0}
-    - target: {fileID: 2806303538150337303, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7313896356426755865, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
-      propertyPath: m_Layer
-      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9f099e73b23291e4f894aac1c0c1bddc, type: 3}
@@ -6384,6 +6336,10 @@ PrefabInstance:
     - target: {fileID: 8534530927214940190, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534530928152502509, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
+      propertyPath: groundedLayers.m_Bits
+      value: 320
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a32efe4c1d6b701469f777cf4b916a38, type: 3}
