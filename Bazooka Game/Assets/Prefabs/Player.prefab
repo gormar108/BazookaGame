@@ -1486,7 +1486,7 @@ MonoBehaviour:
   groundCheck7: {fileID: 8534530927483446825}
   groundCheck8: {fileID: 8534530928150682001}
   groundDistance: 3.1
-  walkableLayers:
+  groundedLayers:
     serializedVersion: 2
     m_Bits: 320
   grounded: 0
@@ -1591,7 +1591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ff7a70abbb63df4a8e461e0c0dc2c70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 5
+  distance: 8
   mask:
     serializedVersion: 2
     m_Bits: 256
