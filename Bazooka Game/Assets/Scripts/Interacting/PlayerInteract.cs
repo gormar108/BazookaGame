@@ -32,6 +32,7 @@ public class PlayerInteract : MonoBehaviour
                 //Debug.Log(interactable.promptMessage);
                 canvasText.active = true;
                 textlabel.text = "Press E to " + interactable.promptMessage;
+                hitinfo.collider.GetComponent<Outline>().enabled = true;
                 if(Input.GetKeyDown(KeyCode.E))
                 {
                     interactable.BaseInteract();
@@ -42,6 +43,8 @@ public class PlayerInteract : MonoBehaviour
         else
         {
             canvasText.active = false;
+            
+            hitinfo.collider.GetComponent<Outline>().enabled = false;            
         }
     }
 }
